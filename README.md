@@ -49,3 +49,5 @@ for version 1, or
 $ python Scheduler.py 
 ```
 for version 2.
+
+It's built for python 2, and seems to run fine with python 2.6 - 2.7.  No third-party libraries are needed.  
