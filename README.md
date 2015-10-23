@@ -14,10 +14,10 @@ the list randomly.  New faces working together!
 My algorithm is simple:  Randomly choose the number of volunteers from the top 3rd of the list, move those selected
 to the end of the list, then move on to the next week.
 Let's say there are 18 volunteers, and 4 are needed each week.  
-1.  From the top 6, choose 4 at random.
-2.  Move those 4 to the end of the list, leaving the other 2 from what was the top 3rd, and advancing 4 other people.
-3.  Again choose 4 more people.  Chance is about even that those 2 who dodged the last pick will get picked up this time.
-4.  Keep going.
+  1.  From the top 6, choose 4 at random, and add them to the schudle for the current date.
+  2.  Move those 4 people to the end of the list, leaving the other 2 people, and advancing 4 more.
+  3.  Again choose 4 more people.  Chance is about even that those 2 who dodged the last pick will get picked this time.
+  4.  Move to the next date.
 
 At the end, a report file is written, grouping the selected volunteers, and setting it all in a table like a calendar.
 
