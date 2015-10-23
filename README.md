@@ -21,14 +21,14 @@ Let's say there are 18 volunteers, and 4 are needed each week.
 
 At the end, a report file is written, grouping the selected volunteers, and setting it all in a table like a calendar.
 
-## Version 1
+## [Version 1](https://github.com/tuhsteh/schedule_printer/tree/version1 "Branch \"version1\"")
 The first attempt allowed for scheduling multiple service times, and had either HTML or TXT output, like the HTML shown:
 
 ![Report Sample](https://raw.githubusercontent.com/tuhsteh/schedule_printer/version1/report_sample_v1.png "Version 1 report sample")
 
 In practice, it usually worked pretty well at evenly distributing services to each volunteer, so they all served nearly the same number of times.
 
-## Version 2
+## [Version 2](https://github.com/tuhsteh/schedule_printer/tree/version2 "Branch \"version2\"")
 The first version did not easily allow for people to request a time off, if they knew they had a camping trip planned that summer for instance.  So in Version 2, I created a Class to store a Person's name and a list of Blackout dates.  The roster was not a list of people any more, it was a dictionary pairing a name with a list of dates.  
 
 Also, the console app would print out the counts for each person, to quickly show how many times each person was scheduled to serve.  
